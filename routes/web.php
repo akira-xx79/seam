@@ -12,10 +12,10 @@
 */
 
 use App\Http\Controllers\PreviewController;
-use Illuminate\Routing\Route;
+// use Illuminate\Routing\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/top', 'PreviewController@top');

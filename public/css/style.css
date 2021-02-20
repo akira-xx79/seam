@@ -1,13 +1,14 @@
-#top {
+/* #top {
     background-image: url('../storage/seamTOP画像2.svg');
     background-position: center;
     background-repeat: no-repeat;
     max-width: 1500px;
     height: 800px;
     background-size:contain;
-}
+} */
 
 #top a {
     margin-top: 550px;
-    margin-left: 700px;
+    margin-left: 600px;
 }
+

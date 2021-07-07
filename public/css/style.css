@@ -1,14 +1,158 @@
-/* #top {
-    background-image: url('../storage/seamTOP画像2.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 1500px;
-    height: 800px;
-    background-size:contain;
-} */
+
 
 #top a {
     margin-top: 550px;
     margin-left: 600px;
+}
+
+#text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+#point {
+    border-left :solid 10px rgb(22, 113, 233);
+    padding-left: 10px;
+}
+
+#area-1 {
+    background:#00bfff;
+    position: relative;
+    margin: 0 0 150px;
+  }
+  #area-1:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 60px 50vw 0 50vw;
+    border-color:#00bfff transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    /* left: 0; */
+    right: 0;
+  }
+
+/* #area-1{
+    background-color: #1e90ff;
+    padding: 50px;
+} */
+
+/*
+.balloon{
+    position: relative;
+    background: #0079c2;
+    padding: 2em;
+  } */
+  .balloon:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #00bfff transparent transparent transparent;
+    border-width: 100px 100px 0 100px;
+  }
+
+  #story {
+    background-attachment: fixed;
+      background-image: url(../storage/christopher-burns-Wiu3w-99tNg-unsplash.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 70%;
+      width: 101%;
+      margin: 50px, 50px;
+  }
+
+  #story:before{
+    background: inherit;
+    content: '';
+    filter: blur(5px);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+  }
+
+  /* #inquiry {
+      background-image: url(../storage/dose-media-bU6JyhSI6zo-unsplash.jpg);
+      background-position: center center;
+
+      background-size: cover;
+      position: relative;
+  } */
+
+  .card {
+        box-shadow: 5px 5px 10px -10px;
+  }
+
+  #nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+  }
+
+  #QandA-1 {
+	width: 100%;
+	font-family: メイリオ;
+	font-size: 14px; /*全体のフォントサイズ*/
+}
+
+#QandA-1 dt {
+	background: #444; /* 「Q」タイトルの背景色 */
+	color: #fff; /* 「Q」タイトルの文字色 */
+	padding: 8px;
+	border-radius: 2px;
+}
+#QandA-1 dt:before {
+	content: "Q.";
+	font-weight: bold;
+	margin-right: 8px;
+}
+#QandA-1 dd {
+	margin: 24px 16px 40px 32px;
+	line-height: 140%;
+	text-indent: -24px;
+}
+#QandA-1 dd:before {
+	content: "A.";
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+.nav-link {
+    color: white;
+}
+
+#f-nav li+ li {
+    border-left: 2px solid white;
+  }
+
+tr {
+    margin: 10px, 10px;
+}
+
+#text-shadow {
+    text-shadow: 0px 1px 6px #333333;
+}
+
+#andrbar {
+        background:linear-gradient(transparent 70%, #FFFF00 0%);
+}
+
+#boder {
+    border: 5px solid #CCCCCC;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 20px;
 }
 

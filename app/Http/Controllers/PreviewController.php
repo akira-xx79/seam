@@ -10,4 +10,14 @@ class PreviewController extends Controller
     {
         return view('top');
     }
+
+    public function price()
+    {
+        return view('price');
+    }
+
+    public function project()
+    {
+        return view('project');
+    }
 }

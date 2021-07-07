@@ -33,12 +33,15 @@
 </section>
 </div>
 <br>
+<br>
 <a href="/top#link-10"><button type="button" class="btn btn-outline-success">機能を見る</button></a>
+<br>
+<br>
 </div>
 
 <div class="container-fluid text-center my-3 py-5 bg-light">
     <section>
-        <h5 class="d-none d-md-block"><strong>まずはお気軽にお問い合わせください。</strong></h5>
+        <h4 class="d-none d-md-block"><strong>まずはお気軽にお問い合わせください。</strong></h4>
         <h6 class="d-block d-md-none"><strong>まずはお気軽にお問い合わせください。</strong></h6>
         <a href="/Inquiry"><button type="button" class="btn btn-danger p-3 px-5 rounded-pill">お問い合わせはこちら</button></a>
     </section>
@@ -77,7 +80,7 @@
 </div>
 
 <div class="container-fluid mt-5">
-    <h3 class="text-center text-danger py-4">POINT<strong class="h1 px-2">1</strong></h3>
+    <h2 class="text-center text-danger py-4">POINT<strong class="h1 px-2">1</strong></h2>
     <div class="container mx-auto" id="boder">
         <h2 class="mx-auto pb-5 text-center"><strong id="point">リアルタイムで確認が出る</strong></h2>
         <div class="row">
@@ -97,8 +100,14 @@
             </div>
             <!-- <div class="col-sm-12 text-center p-3 balloon"><h1 class="">SEAMなら</h1></div> -->
         </div>
-        <div class="row">
 
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <img src="../storage/矢印.svg" alt="">
+            </div>
+        </div>
+
+        <div class="row">
             <div class="d-none d-md-block col-sm-7 text-center">
                 <img class="img-fluid" src="../storage/POINT解決3.svg" alt="サンプル画像">
             </div>
@@ -116,7 +125,7 @@
 </div>
 
 <div class="container-fluid my-5">
-    <h3 class="text-center text-danger py-4">POINT<strong class="h1 px-2">2</strong></h3>
+    <h2 class="text-center text-danger py-4">POINT<strong class="h1 px-2">2</strong></h2>
     <div class="container mx-auto" id="boder">
         <h2 class="mx-auto pb-5 text-center"><strong id="point">制作データが残るので便利</strong></h2>
         <div class="row mb-4">
@@ -134,6 +143,13 @@
 
             </div>
         </div>
+
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <img src="../storage/矢印.svg" alt="">
+            </div>
+        </div>
+
         <div class="row mt-5">
             <div class="col-sm-6">
                 <h3><strong>誰でも共有できる</strong></h3>
@@ -154,7 +170,7 @@
 </div>
 
 <div class="container-fluid my-5">
-    <h3 class="text-center text-danger py-4">POINT<strong class="h1 px-2">3</strong></h3>
+    <h2 class="text-center text-danger py-4">POINT<strong class="h1 px-2">3</strong></h2>
     <div class="container mx-auto" id="boder">
         <h2 class="mx-auto pb-5 text-center"><strong id="point">誰でも使えるシンプルデザイン</strong></h2>
         <div class="row">
